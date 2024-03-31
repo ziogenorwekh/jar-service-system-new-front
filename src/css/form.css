@@ -207,3 +207,18 @@
     text-align: left;
     color: #ff0000;
 }
+
+.href-click {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+    color: #8c8c8c;
+    transition: color 0.35s ease;  /* 색상 변경에 대한 애니메이션 설정 */
+}
+
+.href-click:hover {
+    cursor: pointer;
+    color: #000000; /* 마우스를 올렸을 때 글자 색상 변경 */
+    text-decoration: underline; /* 마우스를 올렸을 때 밑줄 추가 */
+}

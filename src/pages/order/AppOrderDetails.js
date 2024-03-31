@@ -117,7 +117,8 @@ function AppOrderDetails() {
                                     : <div className={"error"}>{applicationDetails.error}</div>
                             }
                             <div className={"info"}>EndPoint Url</div>
-                            <div className={"apporder-column"}>{applicationDetails.endPoint}</div>
+                            <div className={"href-click"} onClick={() => window.open(applicationDetails.endPoint)}
+                            >{applicationDetails.endPoint}</div>
                             <div className={"info"}>Container Id</div>
                             <div className={"apporder-column"}>{applicationDetails.containerId}</div>
                             <div className={"info"}>Server Port</div>
