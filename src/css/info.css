@@ -1,0 +1,21 @@
+.text-left-align {
+    text-align: left; /* 텍스트를 왼쪽 정렬 */
+    padding-left: 16px; /* 카드 내부에서 왼쪽 패딩을 주어 간격을 조절 */
+}
+
+.label-title {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.margin-left {
+    margin-left: 0.5em;
+}
+
+.navLink-style {
+    color: black;
+}
+
+.navLink-style:hover {
+    color: #919191;
+}

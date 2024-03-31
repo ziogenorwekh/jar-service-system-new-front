@@ -1,0 +1,26 @@
+.log-container {
+    background-color: #282c34; /* 어두운 배경색 */
+    color: #abb2bf; /* 밝은 글자색 */
+    font-family: 'Courier New', Courier, monospace; /* 고정폭 글꼴 */
+    white-space: pre-wrap; /* 줄 바꿈 및 공백 유지 */
+    word-break: break-word; /* 단어 내 줄바꿈 허용 */
+    text-align: left;
+    padding: 1em;
+    border-radius: 0.5em;
+    margin-top: 1em;
+}
+
+/* INFO 로그 스타일 */
+.info-log {
+    color: #56b6c2;
+}
+
+/* ERROR 로그 스타일 (에러 로그가 있다면 사용) */
+.error-log {
+    color: #e06c75;
+}
+
+.label-title {
+    font-size: 1.3em;
+    font-weight: bold;
+}

@@ -1,0 +1,271 @@
+.post-top {
+    margin: 1em auto auto;
+    width: 90%;
+}
+
+.post-top .button {
+    display: flex;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.post-list {
+    margin: 1em auto auto;
+    width: 90%;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    transition: background-color 0.2s ease-in-out;
+    background-color: white;
+}
+
+.apporder-list {
+    margin: 1em auto auto;
+    width: 90%;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    transition: background-color 0.2s ease-in-out;
+    background-color: white;
+}
+
+.apporder-list p {
+    margin: 0;
+}
+
+.apporder-list .title {
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.apporder-list .posted-by {
+    text-align: right;
+}
+
+.apporder-list .info {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+    font-size: 1.3em;
+    color: #000000;
+}
+
+
+.apporder-list .apporder-column {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+    color: #8c8c8c;
+}
+
+.apporder-list .error {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+    color: #ff0000;
+}
+
+
+.post-list:hover {
+    background-color: #8c8c8c;
+}
+
+.post-list p {
+    margin: 0;
+}
+
+.post-list .title {
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.post-list .posted-by {
+    text-align: right;
+}
+
+.post-list .username {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+    color: #8c8c8c;
+}
+
+.post-list:hover .username {
+    color: white;
+}
+
+.loading {
+    font-size: 24px;
+    font-weight: bold;
+    color: #999;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.board {
+
+}
+
+.board .title {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.board .username {
+    color: #5b5b5b;
+    font-size: 1.5em;
+}
+
+.board .username:hover {
+    color: #000000;
+    cursor: pointer;
+}
+.board .posted-by {
+    font-size: 1.3em;
+}
+
+.board .contents {
+    font-size: 1.1em;
+}
+
+.comment {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+.comment div {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.ck.ck-editor__editable:not(.ck-editor__nested-editable) {
+    min-height: 400px;
+    margin-bottom: 20px;
+}
+
+.create {
+    margin-top: 1em;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+
+.create input {
+    border: #bbbbbb solid 1px;
+    border-radius: 8px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1em;
+}
+
+.create label {
+    font-size: 1.5em;
+    font-weight: bold;
+    display: block;
+    text-align: left;
+}
+
+.create input:focus {
+    outline: none;
+    box-shadow: 0px 0px 3px black;
+}
+
+
+.m-left {
+    margin-right: 10px;
+}
+
+.status-indicator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.status-circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    color: white;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20px;
+    font-size: 1.5rem;
+}
+
+.status-description {
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #000000;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    white-space: nowrap;
+}
+
+.arrow-and-description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow {
+    font-size: 2rem;
+    color: black;
+}
+
+.pending.active {
+    background-color: #027027;
+}
+
+.saved.active {
+    background-color: #027027;
+}
+
+.containerizing.active {
+    background-color: #027027;
+}
+
+.complete.active {
+    background-color: #027027;
+}
+
+.failed.active {
+    background-color: #ff0000;
+}
+
+.failed-description {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: red;
+    font-weight: bold;
+}
+
+.applications-count {
+    background-color: #f8f9fa; /* 연한 회색 배경 */
+    border: 1px solid #dee2e6; /* 테두리 색상 */
+    border-radius: 8px; /* 둥근 모서리 */
+    padding: 10px 20px; /* 패딩 */
+    margin: 20px 0; /* 마진 */
+    display: inline-block; /* 내용에 맞게 크기 조정 */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* 그림자 효과 */
+    font-weight: bold; /* 글씨 굵게 */
+    color: #495057; /* 글씨 색상 */
+}

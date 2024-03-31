@@ -1,0 +1,209 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.login-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.login-form {
+    width: 400px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.login-form label {
+    font-weight: bold;
+    display: block;
+    text-align: left;
+}
+
+.login-form h2 {
+    margin-bottom: 20px;
+}
+
+.login-form input {
+    border: black solid 1px;
+    border-radius: 8px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.login-form textarea {
+    border: black solid 1px;
+    border-radius: 8px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+.login-form button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.login-form button:hover {
+    background-color: #333;
+}
+
+.login-form input:focus {
+    outline: none;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+}
+
+.join-text {
+    margin-right: 5px;
+    margin-top: 1em;
+}
+
+.join-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    flex-direction: row; /* row로 수정 */
+}
+
+.join-button {
+    margin-left: auto;
+    padding: 5px 20px; /* padding 조절 */
+    border-radius: 20px;
+    font-size: 14px;
+    background-color: #656565;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+.join-button:hover {
+    background-color: #5b5b5b;
+}
+
+.gray {
+    color: #5b5b5b;
+}
+
+.file-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+
+.forgot-text {
+    cursor: pointer; /* 마우스를 올렸을 때 커서를 포인터 모양으로 변경 */
+    transition: font-weight 0.2s; /* 부드러운 전환 효과 */
+}
+
+.forgot-text:hover {
+    font-weight: bold; /* 호버 시 bold체로 변경 */
+    text-decoration: underline; /* 밑줄 추가 */
+}
+
+.error-messages-container {
+    max-height: 150px; /* 최대 높이 설정 */
+    overflow-y: auto; /* 내용이 넘칠 경우 세로 스크롤바 표시 */
+    margin-bottom: 20px; /* 여백 추가 */
+}
+
+/* 스크롤바 전체 컨테이너를 위한 스타일 */
+.error-messages-container::-webkit-scrollbar {
+    width: 12px; /* 스크롤바의 너비 */
+}
+
+/* 스크롤바 트랙(바탕)을 위한 스타일 */
+.error-messages-container::-webkit-scrollbar-track {
+    background: #f1f1f1; /* 트랙의 배경색 */
+    border-radius: 10px; /* 트랙의 모서리 둥글기 */
+}
+
+/* 스크롤바 핸들(움직이는 부분)을 위한 스타일 */
+.error-messages-container::-webkit-scrollbar-thumb {
+    background: #888; /* 핸들의 배경색 */
+    border-radius: 10px; /* 핸들의 모서리 둥글기 */
+}
+
+/* 스크롤바 핸들:hover(마우스오버)을 위한 스타일 */
+.error-messages-container::-webkit-scrollbar-thumb:hover {
+    background: #555; /* 핸들:hover의 배경색 */
+}
+
+.howto-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2.5em;
+}
+
+.text-gray {
+    color: #8c8c8c;
+}
+
+.apporder-details-exp {
+    margin: 0.5em 0 0  0;
+    width: 100%;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    transition: background-color 0.2s ease-in-out;
+    background-color: white;
+}
+
+.apporder-details-exp p {
+    margin: 0;
+}
+
+.apporder-details-exp .title {
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.apporder-details-exp .posted-by {
+    text-align: right;
+}
+
+.apporder-details-exp .info {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+    font-size: 1.3em;
+    color: #000000;
+}
+
+
+.apporder-details-exp .apporder-column {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+    color: #8c8c8c;
+}
+
+.apporder-details-exp .error {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+    color: #ff0000;
+}
